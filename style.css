@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color:hsl(30, 54%, 90%);
+}
+
+#section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50em;
+    background-color: hsl(0, 0%, 100%);
+    padding: 40px;
+    width: 45em;
+    border-radius: 10px;
+}
+
+#main h1 {
+font-family: "Outfit", sans-serif;
+font-size: 40px;
+font-weight: 500;
+text-align: justify;
+margin-top: 10px;
+}
+
+#main p{
+    font-family: "Outfit", sans-serif;
+    text-align: justify;
+    margin: 20px 0;
+}
+
+#main img{
+   width: 650px;
+   border-radius: 10px;
+}
+
+#prep_time{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+#prep_time h4{
+    font-family: "Outfit", sans-serif;
+    color: hsl(332, 51%, 32%);
+    font-weight:bolder;
+    margin-bottom: 10px;
+}
+
+#prep_time ul{
+    list-style-position: inside;
+}
+
+#prep_time ul li{
+    font-family: "Outfit", sans-serif;
+    padding: 10px;
+}
+
+
+#ingredientes ul{
+    list-style-position: inside;
+    padding: 10px;
+}
+
+#ingredientes ul li{
+    font-family: "Outfit", sans-serif;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+#ingredientes h2{
+    font-family: "Outfit", sans-serif;
+    color: hsl(14, 45%, 36%);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+#preparacao h2{
+font-family: "Outfit", sans-serif;
+color: hsl(14, 45%, 36%);
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+#preparacao ol{
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+#preparacao ol li{
+    font-family: "Outfit", sans-serif;
+    padding: 10px;
+    
+}
+
+#preparacao li::marker{
+    color:hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+
+#nutrition h2{
+    font-family: "Outfit", sans-serif;
+    color: hsl(14, 45%, 36%);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#nutrition p{
+    font-family: "Outfit", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.quant{
+    color:hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+table{
+    font-family: "Outfit", sans-serif;
+    width: 100%; 
+    line-height: 40px;
+    border-collapse: collapse;
+    
+}
+
+
+
+table tr:not(:last-child){
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+}
+
